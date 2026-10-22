@@ -1,0 +1,126 @@
+.header{
+    display: block;
+    font-family: Arial;
+    font-size: 80px;
+    color: red;
+    font-style: oblique;
+    text-align: center;
+    background: linear-gradient(to right,rgb(206, 217, 252),#90a0fa); 
+    margin: 5px;    
+}
+.nav{
+    display: block;
+    background: linear-gradient(to bottom,rgb(206, 217, 252),#90a0fa); 
+    height: 50px;     
+}
+.links{
+    display: block;    /* из строчного блока получаем блочный */
+    text-decoration: none;  /* убираем подчеркивание ссылок */
+    background-color: rgb(182, 217, 240);    /* фон кнопки */
+    border-color: gray;    /* цвет рамки */
+    border-style: ridge; /* стиль рамки */
+    border-width: 2px;
+    float: left;
+    height: 46px;
+    text-align: center;
+    align-content: center;
+    min-width: 100px;
+    color: black;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.links:hover{ 
+    background-color: rgb(92, 143, 255); /* фон кнопки при наведении */
+}
+.divnews {
+    display: block;
+    float: left;
+    width: 170px;
+    background: linear-gradient(to bottom,rgb(206, 217, 252),#a2aff8); 
+    margin: 5px;
+    box-shadow: 5px 3px rgb(165, 164, 164); /* тень блока */
+}
+.title {
+    display: block;
+    background-color: #90a0fa;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.third{
+    display: block;
+    float: right;
+    width: 170px;
+    background: linear-gradient(to bottom,rgb(206, 217, 252),#bbc6ff); 
+    margin: 5px;
+    box-shadow: 5px 3px rgb(165, 164, 164); /* тень блока */
+}
+.smalldiv {
+    display: block;
+    background-color: rgb(182, 217, 240);
+    margin: 5px;
+    box-shadow: 3px 2px rgb(165, 164, 164); /* тень блока */
+    border-radius: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+.mainbody {
+    display: block;
+    overflow: hidden;
+    background: linear-gradient(to bottom,rgb(206, 217, 252),#bbc6ff); 
+    box-shadow: 5px 3px rgb(165, 164, 164); /* тень блока */
+    margin: 5px;
+    border-radius: 10px;
+    min-width: fit-content;
+}
+.container {
+    float: left;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo_text {
+    position: absolute;
+    background-color: #95aec6;
+    opacity: 0.5;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    bottom: -100%;
+    transition: all .3s;
+    color: #000000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+
+}
+
+.logo:hover .logo_text {
+    bottom: 0;
+
+}
